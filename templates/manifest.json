@@ -1,0 +1,18 @@
+{
+  "templates": [
+    {
+      "id": "example-template-v1",
+      "slug": "example",
+      "name": "Example Template",
+      "description": "A simple example template demonstrating the required structure",
+      "category": "general",
+      "is_premium": false,
+      "price_inr": 0,
+      "price_usd": 0,
+      "is_active": true,
+      "version": 1,
+      "schema_url": "https://raw.githubusercontent.com/ykyadavid/giftonscreen-templates/main/templates/example/v1/schema.json",
+      "file_url": "https://raw.githubusercontent.com/ykyadavid/giftonscreen-templates/main/templates/example/v1/index.html"
+    }
+  ]
+}
