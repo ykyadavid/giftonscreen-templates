@@ -1,0 +1,16 @@
+{
+  "gift_data_schema": {
+    "type": "object",
+    "properties": {
+      "recipient_name": { "type": "string" },
+      "message": { "type": "string" },
+      "photos": { "type": "array", "items": { "type": "string" } },
+      "videos": { "type": "array", "items": { "type": "string" } }
+    },
+    "required": ["recipient_name", "message"]
+  },
+  "ui_config": {
+    "theme": "light",
+    "font_family": "sans-serif"
+  }
+}
